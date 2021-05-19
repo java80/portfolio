@@ -9,25 +9,17 @@ const Header = () => {
       <h1>Ikechukwu Ekedede</h1>
         <h2>Software Engineer</h2>
       </div>
-      <div className = "linkin-profile">
-      <img src={process.env.PUBLIC_URL + '/img/linkedin.jpg'} alt="LinkInProfile" />
+      <div className = "profile-picture">
+      <img className = "profile-image" src={process.env.PUBLIC_URL + '/img/linkedin.jpg'} alt="LinkInProfile" />
        
       </div>
-      {/* <div className = "social-linkin">
-        <img src={process.env.PUBLIC_URL + '/img/linkedIn-icon.png'} alt="LinkInProfile" />
-        
-      </div>
-      <div className = "social-github">
-       <img src= {process.env.PUBLIC_URL + '/img/github-icon.png'} alt ="GitHubProfile"/>
-      </div> */}
-    
       </div>
       <div className = "social-container">
       <div className = "social-github">
-       <img src= {process.env.PUBLIC_URL + '/img/github-icon.png'} alt ="GitHubProfile"/>
+       <img className = "github-image" src= {process.env.PUBLIC_URL + '/img/github-icon.png'} alt ="GitHubProfile"/>
       </div>
       <div className = "social-linkin">
-        <img src={process.env.PUBLIC_URL + '/img/linkedIn-icon.png'} alt="LinkInProfile" />
+        <img className = "linkin-image" src={process.env.PUBLIC_URL + '/img/linkedIn-icon.png'} alt="LinkInProfile" />
         
         </div>
         </div>
