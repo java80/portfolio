@@ -1,0 +1,33 @@
+.header-container {
+  display: flex;
+  flex-flow: row;
+  max-width: 900px;
+  justify-content: space-evenly;
+  padding-top: 75px;
+
+}
+.social-container {
+  display:flex;
+  max-width: 700px;
+ justify-content: flex-end; 
+}
+.linkin-profile{
+  order: -1;
+  
+}
+.linkin-profile img{
+  width: 300px;
+}
+.social-linkin img {
+  width: 100px;
+  align-self: center;
+}
+.social-github img {
+  width: 100px;
+}
+.job-title {
+  align-self: center;
+}
+.social-github{
+  padding-right: 30px
+}
