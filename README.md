@@ -1,5 +1,5 @@
 # Project Name
-> Ike Ekedede Portfolio showing my projects
+> Ikechukwu Ekedede Portfolio showing my projects
 > Live demo [_here_]
 
 ## Table of Contents
@@ -10,6 +10,11 @@
 
 
 ## Features
+
+## Dependencies
+* https://caferati.me/demo/react-awesome-slider
+
+
 
 
 ## Screenshots
