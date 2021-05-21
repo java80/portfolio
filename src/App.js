@@ -5,6 +5,7 @@ import Aboutme from "./components/Aboutme/Aboutme";
 import './App.css';
 import Projects from "./components/Projects/Projects";
 import RecentProject from "./components/RecentProject.jsx/RecentProject";
+import Contact from "./components/Contact/Contact";
 
 
 function App() {
@@ -24,14 +25,28 @@ function App() {
   };
   return (
     <div className="App">
-      
-      <Header />
-      <div className = "main-container">
-        <Aboutme headings={headings} />
-        <RecentProject/>
-        <Projects listOfProjects={listOfProjects}/>
-      </div>
-      <Footer />
+  <div className = "main-container">
+         <Header />
+        <table>
+    <tbody>
+        <tr>
+            <td className ="One"><Aboutme headings={headings} /></td>
+              <td className="second"> <Contact /></td>   
+            </tr>
+            <tr>
+            <td className ="One"> <RecentProject/></td>
+              <td className="second"> <Contact /></td>   
+            </tr>
+            <tr>
+            <td className ="One"> <Projects listOfProjects={listOfProjects} /></td>
+              <td className="second"> <Projects listOfProjects={listOfProjects} /></td>   
+            </tr>         
+    </tbody>
+</table>
+<Footer />
+
+
+</div>
       
     </div>
   );

@@ -30,7 +30,10 @@
 .App-link {
   color: #61dafb;
 }
-
+.table{
+  
+  
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -39,3 +42,15 @@
     transform: rotate(360deg);
   }
 }
+
+.One{
+  width: 1000px;
+}
+.second {
+  width:800px;
+}
+/* <colgroup>
+       <col span="1" style="width: 15%;">
+       <col span="1" style="width: 70%;">
+       <col span="1" style="width: 15%;">
+    </colgroup> */
