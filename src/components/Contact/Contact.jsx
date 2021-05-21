@@ -11,7 +11,7 @@ class Contact extends Component {
         <div className="contacts">
           <p>  New York, New York</p>
           <p>  <a href = "mailto: ikeekedede@gmail.com">ikeekedede@gmail.com</a></p>
-          <p> <a href="">  Resume </a></p>
+          {/* <p> <a href="">  Resume </a></p> */}
           </div>
       </div>
     );
