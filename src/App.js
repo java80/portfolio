@@ -6,6 +6,7 @@ import './App.css';
 import Projects from "./components/Projects/Projects";
 import RecentProject from "./components/RecentProject.jsx/RecentProject";
 import Contact from "./components/Contact/Contact";
+import Education from "./components/Education/Education";
 
 
 function App() {
@@ -35,7 +36,7 @@ function App() {
             </tr>
             <tr>
             <td className ="One"> <RecentProject/></td>
-              <td className="second"> <Contact /></td>   
+              <td className="second"> <Education/></td>   
             </tr>
             <tr>
             <td className ="One"> <Projects listOfProjects={listOfProjects} /></td>
