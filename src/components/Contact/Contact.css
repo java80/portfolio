@@ -1,8 +1,16 @@
 .contact-card {
   border: 1px solid;
   padding: 40px; 
-  width: 50%;
+  width: 500px;
   margin-left: 20px;
   margin-top: 50px;
-  height: 175px;
+  height: fit-content;
+    
+}
+.contacts img {
+  width: 20%;
+}
+.contacts {
+  display: grid;
+  grid-template-columns: auto auto;
 }

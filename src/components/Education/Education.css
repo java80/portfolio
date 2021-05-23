@@ -4,7 +4,7 @@
   width: 80%;
   margin-left: 20px;
   margin-top: 50px;
-  height: 175px;
+  
 }
 .ga-class img {
   width: 100px;
@@ -13,4 +13,8 @@
 .st-peters img{
   width: 100px;
     height: 100px;
+}
+.educations{
+  display: grid;
+  grid-template-columns: auto auto;
 }

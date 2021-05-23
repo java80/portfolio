@@ -8,20 +8,20 @@ class Education extends Component {
     return (
       <div className="Education-card">
         
-        <div className="Educations">
+        <div className="educations">
           <div className = "ga-class">
             <img className="ga-image" src={process.env.PUBLIC_URL + '/img/Ga-icon.jpeg'} alt="Ga logo" />
-            <h2>General Assembly</h2>
           </div>
+          <div>
+            <h2>General Assembly</h2>
+            </div>
           <div className ="st-peters">
-          <img className = "st-peters-image" src= {process.env.PUBLIC_URL + '/img/SaintPeter.jpeg'} alt ="Saint Peter's logo"/>
+            <img className="st-peters-image" src={process.env.PUBLIC_URL + '/img/SaintPeter.jpeg'} alt="Saint Peter's logo" />
+          </div>
+          <div>
           <h2>Saint Peter's University</h2>
           </div>
-
-      
         </div>
-
-
 
       </div>
     );

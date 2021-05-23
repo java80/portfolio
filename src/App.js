@@ -29,8 +29,30 @@ function App() {
     <div className="App">
       <Header />
   <div className = "main-container">
-         
-        <table>
+        <div id ="grid">
+
+        
+        <div>
+        <Aboutme headings={headings} />
+        </div>
+        <div>
+          <Contact/>
+        </div>
+        <div>
+          <RecentProject/>
+        </div>
+
+        <div>
+          <Education/>
+        </div>
+        <div>
+        <Projects listOfProjects={listOfProjects}/>
+        </div>
+        <div>
+        <Projects listOfProjects={listOfProjects}/>
+          </div>
+          </div>
+        {/* <table>
     <tbody>
         <tr>
             <td className ="One"><Aboutme headings={headings} /></td>
@@ -45,7 +67,9 @@ function App() {
               <td className="second"> <Skills/> </td>   
             </tr>         
     </tbody>
-</table>
+</table> */}
+        
+
 <Footer />
 
 

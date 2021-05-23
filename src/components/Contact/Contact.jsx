@@ -9,11 +9,34 @@ class Contact extends Component {
       <div className="contact-card">
         
         <div className="contacts">
-          <p>  New York, New York</p>
-          <p>  <a href = "mailto: ikeekedede@gmail.com">ikeekedede@gmail.com</a></p>
-          {/* <p> <a href="">  Resume </a></p> */}
+          <div>
+          <img className="location-image" src={process.env.PUBLIC_URL + '/img/location.png'} alt="location logo" />
           </div>
-      </div>
+          <div>
+          <p>  New York, New York</p>
+          </div>
+          <div>
+          <img className="email-image" src={process.env.PUBLIC_URL + '/img/email.png'} alt="Email logo" />
+          </div>
+          <div>
+          <p>  <a href = "mailto: ikeekedede@gmail.com">ikeekedede@gmail.com</a></p>
+          </div>
+          <div>
+          <img className="download-resume-image" src={process.env.PUBLIC_URL + '/img/resume.png'} alt="resume download" />
+          </div>
+          <div>
+          <p>  <a href = "mailto: ikeekedede@gmail.com">Download Resume</a></p>
+          </div>
+          <div>
+          <img className="download-resume-image" src={process.env.PUBLIC_URL + '/img/contact.png'} alt="resume download" />
+          </div>
+          <div>
+          <p>  <a href = "mailto: ikeekedede@gmail.com">Download Resume</a></p>
+          </div>
+        
+        </div>
+        </div>
+      
     );
 
     } 
