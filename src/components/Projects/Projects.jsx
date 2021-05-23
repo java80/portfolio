@@ -29,7 +29,7 @@ class Projects extends Component {
                   <h3> {this.props.listOfProjects.github} <span>&nbsp; &nbsp;&nbsp;&nbsp;</span>
                   <span> {allproject.github} </span>
                   </h3>
-                  
+                 
         
                 </div>
              )
