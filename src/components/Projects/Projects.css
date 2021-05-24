@@ -9,3 +9,8 @@
   width: 700px;
   height: 450px;
 }
+.git-live-button {
+  display: flex;
+  justify-content: center;
+  
+}
