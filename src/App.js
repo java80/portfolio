@@ -8,7 +8,7 @@ import RecentProject from "./components/RecentProject.jsx/RecentProject";
 import Contact from "./components/Contact/Contact";
 import Education from "./components/Education/Education";
 import Skills from "./components/Skills/Skills";
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+
 
 
 function App() {
@@ -50,7 +50,7 @@ function App() {
         <Projects listOfProjects={listOfProjects}/>
         </div>
         <div>
-        <Projects listOfProjects={listOfProjects}/>
+        <Skills/>
           </div>
           </div>
         
