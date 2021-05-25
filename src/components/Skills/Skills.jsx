@@ -9,7 +9,7 @@ import Alltech from "./ToolsIUse.json";
    const renderTech = currentTech.map(alltech => {
        
      return (
-       <div className="all-tech">
+       <div key={alltech.id} className="all-tech">
          <ul>
            <li>
            <img src = {alltech.img_url} alt='tool-icon'/> 

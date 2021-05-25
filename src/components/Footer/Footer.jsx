@@ -3,7 +3,7 @@ import React from 'react';
 const Footer = () => {
   return (
     <div>
-      @Ike
+     &copy; 2021 Ike Ekedede.
     </div>
   );
 };
