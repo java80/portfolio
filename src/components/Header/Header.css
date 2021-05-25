@@ -45,3 +45,11 @@
 .job-title {
   padding-bottom: 1px;
 }
+
+@media screen and (max-width:700px){
+  .social-container {
+    margin-top: 50px;
+    justify-content: flex-end;
+    padding-right: 80px;
+  }
+}

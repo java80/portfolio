@@ -1,9 +1,11 @@
 .Education-card {
   border: 1px solid;
   padding: 40px; 
-  width: 90%;
+  width: 30vw;
   margin-left: 20px;
   margin-top: 50px;
+  
+  text-align: left;
   
 }
 .ga-class img {
@@ -20,4 +22,9 @@
   display: grid;
   grid-template-columns: auto auto;
   align-items: center;
+}
+@media screen and (max-width:700px){
+  .Education-card {
+    width: 70vw;
+  }
 }

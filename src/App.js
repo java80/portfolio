@@ -45,7 +45,8 @@ function App() {
         </div>
 
         <div>
-          <Education/>
+            <Education />
+            <Education/>
         </div>
         <div>
         <Projects listOfProjects={listOfProjects}/>
