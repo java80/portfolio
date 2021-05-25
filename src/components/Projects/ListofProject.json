@@ -2,8 +2,8 @@
   {
       "id": 1,
       "title": "Course Managment",
-      "description": " ELearning platform",
-      "tools": "Ruby on rails, React Js",
+      "description": " E Learning platform",
+      "tools": "Ruby on rails, React Js, PostgreSQl,Heroku",
       "livesite": "https://sad-einstein-72a4bc.netlify.app/",
       "github": "https://github.com/java80/coursemanagement"
       
@@ -11,18 +11,18 @@
   {
     "id": 2,
     "title": "Dev-it-forward",
-    "description": " student- tutor",
-    "tools": "Ruby on rails, React Js",
-    "livesite": "https://www.cnn.com/",
-    "github": "https://github.com/java80/coursemanagement"
+    "description": "Creating an app for subject matter experts to connect to potential students for tutoring.",
+    "tools": "Node/Express Js, React Js,MongoDb,Heroku,Netlify",
+    "livesite": "https://gracious-hodgkin-2b0838.netlify.app/Landing",
+    "github": "https://github.com/foremanlb/Dev-It-Forward"
     
 },
 {
   "id": 3,
   "title": "Ecommerce",
   "description": " React ecommerce",
-  "tools": "Airtable, React",
-  "livesite": "https://www.facebook.com/",
+  "tools": "Airtable REST api, React JS",
+  "livesite": "https://shop-v1.netlify.app/",
   "github": "https://github.com/java80/coursemanagement"
   
 }

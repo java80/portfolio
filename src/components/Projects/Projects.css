@@ -14,3 +14,9 @@
   justify-content: center;
   
 }
+.project, h3 {
+  font-size: 20px;
+}
+.project,h3,span{
+  font-style: italic;
+}

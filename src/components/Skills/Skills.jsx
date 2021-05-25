@@ -15,7 +15,7 @@ import Alltech from "./ToolsIUse.json";
            <img src = {alltech.img_url} alt='tool-icon'/> 
            </li>
            <li>
-           <h2>{alltech.title}</h2>
+           <h4>{alltech.title}</h4>
            </li>
          </ul>
        </div>

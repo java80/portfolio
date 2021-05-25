@@ -42,3 +42,6 @@
 .github-image ,.linkin-image{
   border-radius: 50%;
 }
+.job-title {
+  padding-bottom: 1px;
+}

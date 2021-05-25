@@ -55,3 +55,8 @@ table{
   grid-column-gap: 100px;
 }
 
+@media only screen and (max-width: 600px) {
+  #grid {
+   grid-template-columns: auto;
+  }
+}

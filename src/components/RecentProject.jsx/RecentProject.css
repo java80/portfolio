@@ -6,7 +6,18 @@
   margin-left: 20px;
   
 }
+.recent-project{
+  padding-bottom: 40px;
+}
 .recent-project img {
   width: 700px;
   height: 450px;
+}
+.recent-project, h1 {
+  text-align: left;
+  padding-top: 10px;
+  
+}
+.recent-project,h3 {
+  padding-bottom: 10px;
 }
