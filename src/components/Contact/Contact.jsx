@@ -25,7 +25,7 @@ class Contact extends Component {
           <img className="download-resume-image" src={process.env.PUBLIC_URL + '/img/resume.png'} alt="resume download" />
           </div>
           <div>
-          <p>  <a href = "mailto: ikeekedede@gmail.com">Download Resume</a></p>
+          <p>  <a href = "https://docs.google.com/document/d/1voxeid5y03Vp2qtAIhJvU1W81BbXgPCgaW_4Y9-qSbI/edit?usp=sharing">Download Resume</a></p>
           </div>
           <div>
           <img className="download-resume-image" src={process.env.PUBLIC_URL + '/img/contact.png'} alt="resume download" />

@@ -4,11 +4,13 @@
   max-width: 800px;
   justify-content: space-evenly;
   padding-top: 75px;
-  height: 200px;
+  padding-right: 100px;
+  height: 175px;
 }
 .social-container {
   display:flex;
   max-width: 600px;
+  padding-right: 150px;
  justify-content: flex-end;
 }
 .profile-picture{
@@ -21,11 +23,11 @@
 
 }
 .social-linkin img {
-  width: 100px;
+  width: 50px;
   align-self: center;
 }
 .social-github img {
-  width: 100px;
+  width: 50px;
 }
 .job-title {
   align-self: center;

@@ -13,6 +13,9 @@
 
 ## Dependencies
 * https://caferati.me/demo/react-awesome-slider
+* https://www.npmjs.com/package/react-js-pagination
+* https://jsonkeeper.com/
+* https://jsonkeeper.com/b/20PR
 
 
 

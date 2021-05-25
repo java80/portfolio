@@ -7,14 +7,15 @@
   
 }
 .ga-class img {
-  width: 100px;
-  height: 100px;
+  width: 75px;
+  height: 75px;
 }
 .st-peters img{
-  width: 100px;
-    height: 100px;
+  width: 75px;
+    height: 75px;
 }
 .educations{
   display: grid;
   grid-template-columns: auto auto;
+  align-items: center;
 }

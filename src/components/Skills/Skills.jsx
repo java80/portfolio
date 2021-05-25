@@ -1,26 +1,37 @@
-import React, { Component } from 'react';
+import React from 'react';
 import "./Skills.css";
+import Alltech from "./ToolsIUse.json";
 
-
-class Skills extends Component {
-  render() {
-      
-    return (
-      <div className="Skills-card">
-        
-        <div className="skills">
-          
-        <h1> list of technology</h1>
-      
-        </div>
-
-
-
-      </div>
-    );
-
-    } 
+ const  Skills = (props) => {
   
- };
- 
-export default Skills
+  const currentTech = Alltech
+  
+   const renderTech = currentTech.map(alltech => {
+       
+     return (
+       <div className="all-tech">
+         <ul>
+           <li>
+           <img src = {alltech.img_url} alt='tool-icon'/> 
+           </li>
+           <li>
+           <h2>{alltech.title}</h2>
+           </li>
+         </ul>
+       </div>
+
+     );
+     
+   })
+  return (
+    <div className="Skills-card">
+      {
+        renderTech
+       }
+    </div>
+  );
+}
+
+
+
+export default Skills;

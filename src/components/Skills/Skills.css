@@ -1,8 +1,23 @@
 .Skills-card {
-  border: 3px solid;
+  border: 1px solid;
   padding: 40px; 
   width: 90%;
-  margin-left: 20px;
   margin-top: 50px;
-  height: 175px;
+  height: fit-content;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.all-tech img {
+  width: 100px;
+}
+.all-tech ul li {
+  list-style: none;
+   padding: 10px
+}
+.all-tech ul li h2 {
+  text-align: center;
 }

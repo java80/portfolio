@@ -8,10 +8,13 @@ import RecentProject from "./components/RecentProject.jsx/RecentProject";
 import Contact from "./components/Contact/Contact";
 import Education from "./components/Education/Education";
 import Skills from "./components/Skills/Skills";
+import AllProjects from "../src/components/Projects/ListofProject.json";
 
 
 
 function App() {
+  
+
   const headings = {
     language: "Languages",
      os: "OS",
@@ -31,8 +34,6 @@ function App() {
       <Header />
   <div className = "main-container">
         <div id ="grid">
-
-        
         <div>
         <Aboutme headings={headings} />
         </div>
@@ -50,12 +51,12 @@ function App() {
         <Projects listOfProjects={listOfProjects}/>
         </div>
         <div>
-        <Skills/>
+            <Skills/>
           </div>
           </div>
         
 
-<Footer />
+{/* <Footer /> */}
 
 
 </div>
