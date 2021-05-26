@@ -8,12 +8,14 @@ import RecentProject from "./components/RecentProject.jsx/RecentProject";
 import Contact from "./components/Contact/Contact";
 import Education from "./components/Education/Education";
 import Skills from "./components/Skills/Skills";
+import { getNews } from "./api";
+import Newsfeed from "./Newsfeed/Newsfeed";
 
 
 
 
 function App() {
-  
+  getNews();
 
   const headings = {
     language: "Languages",
@@ -46,7 +48,7 @@ function App() {
 
         <div>
             <Education />
-            <Education/>
+            <Newsfeed/>
         </div>
         <div>
         <Projects listOfProjects={listOfProjects}/>

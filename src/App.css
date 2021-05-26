@@ -62,5 +62,6 @@ table{
 @media screen and (max-width:700px){
   #grid {
    grid-template-columns: auto;
+   padding-left: 25vw;
   }
 }

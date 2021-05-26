@@ -1,0 +1,21 @@
+.newsfeed-card {
+  border: 1px solid;
+  padding: 40px; 
+  width: 30vw;
+  margin-left: 20px;
+  margin-top: 50px;
+  
+  text-align: left;
+  
+}
+
+.newsfeeds{
+  display: grid;
+  grid-template-columns: auto auto;
+  align-items: center;
+}
+@media screen and (max-width:700px){
+  .newsfeed-card {
+    width: 70vw;
+  }
+}
