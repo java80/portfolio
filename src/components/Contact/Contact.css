@@ -7,13 +7,23 @@
   
   text-align: left;
 }
-.contacts img {
-  width: 75%;
+.contact-image {
+ 
 }
 .contacts {
   display: grid;
   grid-template-columns: auto auto;
   
+}
+.contact-image img{
+  background-color: blue;
+  width: 100px;
+  height: 100px;
+}
+.contact-image email-image img{
+  background-color: blue;
+  width: 100px;
+  height: 100px
 }
 .contacts p {
   padding-right: 150px;

@@ -1,8 +1,32 @@
 
 import React from 'react';
-import "./Projects.css";
+//import "./Projects.css";
 import AllProjects from "./ListofProject.json";
-import Button from 'react-bootstrap/Button';
+import { makeStyles } from "@material-ui/core/styles";
+//import Button from 'react-bootstrap/Button';
+import {
+  Typography,
+  AppBar,
+  Card,
+  CardActions,
+  CardContent,
+  CardHeader,
+  CardMedia,
+  CardActionArea,
+  Grid,
+  CssBaseline,
+  Toolbar,
+  Button,
+  Container,
+  classes,
+  List,
+  ListItem,
+  ListItemText,
+  Divider,
+  ListItemIcon,
+  InboxIcon,
+} from "@material-ui/core";
+import { red } from '@material-ui/core/colors';
 
   const Projects = (props) => {
     
@@ -10,6 +34,7 @@ import Button from 'react-bootstrap/Button';
 
     const RenderProjects = currentProjects.map(allproject => {
       return (
+        <Card>
         <div key={allproject.id}>
           <h3> {props.listOfProjects.title} {allproject.id} <span>&nbsp; &nbsp;&nbsp;&nbsp;</span>
             <span> {allproject.title} </span>
@@ -38,7 +63,8 @@ import Button from 'react-bootstrap/Button';
               </h3>
             </div>
           </div>
-        </div>
+          </div>
+          </Card>
       )
     });
       
@@ -49,8 +75,7 @@ import Button from 'react-bootstrap/Button';
           {
           RenderProjects    
           }
-        </div>
-        <div>
+          <div>
               <h3> <span>&nbsp; &nbsp;&nbsp;&nbsp;</span>
                 <Button variant="primary" type="button" onClick={(e) => {
                   e.preventDefault();
@@ -58,6 +83,8 @@ import Button from 'react-bootstrap/Button';
                 }}> More On LinkedIn</Button>
               </h3>
             </div>
+        </div>
+        
       </div>
     );
  
