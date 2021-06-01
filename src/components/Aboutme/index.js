@@ -52,7 +52,7 @@ export default function CenteredGrid() {
               <span>XCode/Android Studio</span>
 
             </Grid>
-            <a href="https://docs.google.com/document/d/1voxeid5y03Vp2qtAIhJvU1W81BbXgPCgaW_4Y9-qSbI/edit" target="_blank" className={classes.my}><h3>
+            <a href="https://docs.google.com/document/d/1voxeid5y03Vp2qtAIhJvU1W81BbXgPCgaW_4Y9-qSbI/edit" target="_blank" rel="noopener noreferrer"  className={classes.my}><h3>
                 Download Resume 
             </h3>
             </a>

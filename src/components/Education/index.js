@@ -34,7 +34,7 @@ export default function CenteredGrid() {
                     height: "75px",
                     borderRadius: "100%",
                   }}
-                ></img>
+                  alt="ga logo"></img>
                 <h2 className={classes.headings}>General Assembly</h2>
             </Grid>
             <Grid item xs={6} lg={6} style={{ padding: "0px" }}>
@@ -44,7 +44,8 @@ export default function CenteredGrid() {
                     width: "75px",
                     height: "75px",
                     borderRadius: "100%",
-                  }}
+                }}
+                alt="CSS"
                 ></img>
             <h2 className={classes.headings}>Saint Peter's University</h2>
             

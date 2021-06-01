@@ -20,7 +20,7 @@ export default function CenteredGrid() {
 
           <Grid container spacing={3} className={classes.mainContainer}>
             <Grid item xs={4} style={{ padding: "0px" }}>
-                <a hover href="https://sad-einstein-72a4bc.netlify.app/" target="_blank" className={classes.heading}><h2 >Course Management</h2></a>
+                <a hover href="https://sad-einstein-72a4bc.netlify.app/" target="_blank" rel="noopener noreferrer"  className={classes.heading}><h2 >Course Management</h2></a>
                 <p>An E-Learning Platform</p>
                 <h2>Tools Used</h2>
                 <span>Ruby On Rails</span><br/>
@@ -32,7 +32,7 @@ export default function CenteredGrid() {
 
             </Grid>
             <Grid item xs={4} style={{ padding: "0px" }}>
-            <a href="https://gracious-hodgkin-2b0838.netlify.app/Landing" target="_blank" className={classes.heading}> <h2>Dev-it-forward</h2></a>
+            <a href="https://gracious-hodgkin-2b0838.netlify.app/Landing" target="_blank" rel="noopener noreferrer" className={classes.heading}> <h2>Dev-it-forward</h2></a>
             <p>Creating an app for subject matter experts to connect to potential students for tutoring.</p>
                 <h2>Tools Used</h2>
                 <span>Node/Express JS</span><br/>
@@ -45,7 +45,7 @@ export default function CenteredGrid() {
 
             </Grid>
             <Grid item xs={4} style={{ padding: "0px" }}>
-            <a href="https://shop-v1.netlify.app/" target="_blank" className={classes.heading}><h2>Ecommerce</h2></a>
+            <a href="https://shop-v1.netlify.app/" target="_blank" rel="noopener noreferrer"  className={classes.heading}><h2>Ecommerce</h2></a>
             <p>React ecommerce</p>
                 <h2>Tools Used</h2>
                 <span>Airtable REST API</span><br/>

@@ -1,6 +1,5 @@
 import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
-import Paper from "@material-ui/core/Paper";
 import Grid from "@material-ui/core/Grid";
 import Bootstrap from "./images/bootstrap.jpg";
 import Css from "./images/css.jpg";
@@ -43,7 +42,9 @@ export default function CenteredGrid() {
                     height: "75px",
                     borderRadius: "100%",
                   }}
-                ></img>
+                  alt="CSS">
+                  
+                  </img>
               </div>
             </Grid>
 
@@ -56,7 +57,7 @@ export default function CenteredGrid() {
                     height: "75px",
                     borderRadius: "100%",
                   }}
-                ></img>
+                  alt="Bootstrap"></img>
               </div>
             </Grid>
 
@@ -69,6 +70,7 @@ export default function CenteredGrid() {
                     height: "75px",
                     borderRadius: "100%",
                   }}
+                  alt="Material UI"
                 ></img>
               </div>
             </Grid>
@@ -82,6 +84,7 @@ export default function CenteredGrid() {
                     height: "75px",
                     borderRadius: "100%",
                   }}
+                  alt="Express"
                 ></img>
               </div>
             </Grid>
@@ -95,6 +98,7 @@ export default function CenteredGrid() {
                     height: "75px",
                     borderRadius: "100%",
                   }}
+                  alt="Jquery"
                 ></img>
               </div>
             </Grid>
@@ -108,6 +112,7 @@ export default function CenteredGrid() {
                     height: "75px",
                     borderRadius: "100%",
                   }}
+                  alt="MongodDb"
                 ></img>
               </div>
             </Grid>
@@ -121,6 +126,7 @@ export default function CenteredGrid() {
                     height: "75px",
                     borderRadius: "100%",
                   }}
+                  alt="PostgreSql"
                 ></img>
               </div>
             </Grid>
@@ -134,6 +140,7 @@ export default function CenteredGrid() {
                     height: "75px",
                     borderRadius: "100%",
                   }}
+                  alt="React"
                 ></img>
               </div>
             </Grid>
@@ -147,6 +154,7 @@ export default function CenteredGrid() {
                     height: "75px",
                     borderRadius: "100%",
                   }}
+                  alt="Ruby"
                 ></img>
               </div>
             </Grid>

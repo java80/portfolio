@@ -1,10 +1,8 @@
 import React from "react";
-import { makeStyles } from "@material-ui/core/styles";
-import Paper from "@material-ui/core/Paper";
 import Grid from "@material-ui/core/Grid";
 import useStyles from "./styles.js";
 import ProfileImage from "./linkedin.jpg";
-import GA from './images/GA.jpeg';
+
 
 export default function CenteredGrid() {
   const classes = useStyles();
