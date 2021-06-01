@@ -5,7 +5,7 @@ function Newsfeed(props) {
     <div className="news-card">
         
         <div className="news">
-         <h1> hellow world</h1>
+         <h1> </h1>
         </div>
 
       </div>
