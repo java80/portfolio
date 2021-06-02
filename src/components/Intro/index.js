@@ -2,6 +2,8 @@ import React from "react";
 import Grid from "@material-ui/core/Grid";
 import useStyles from "./styles.js";
 import ProfileImage from "./linkedin.jpg";
+import GitHubIcon from "@material-ui/icons/GitHub";
+import LinkedInIcon from "@material-ui/icons/LinkedIn";
 
 
 export default function CenteredGrid() {
@@ -24,6 +26,21 @@ export default function CenteredGrid() {
 
                 <h1 className={classes.profession}>Software Engineer</h1>
                 <h2 className={classes.location}>New York, New York</h2>
+                <div> <a href="https://github.com/java80" target="_blank" rel="noopener noreferrer" >
+                  {" "}
+                  <GitHubIcon
+                    style={{ fontSize: "-webkit-xxx-large", color: "black" }}
+                  />
+                </a> <a
+                  href="https://www.linkedin.com/in/ikechukwu-ekedede-20b12b209/"
+                    target="_blank"
+                    rel="noopener noreferrer" 
+                >
+                
+                  <LinkedInIcon
+                    style={{ fontSize: "-webkit-xxx-large", color: "black" }}
+                  />
+                </a></div>
               </div>
             </Grid>
           
