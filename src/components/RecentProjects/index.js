@@ -74,7 +74,7 @@ export default function CenteredGrid() {
             </Grid>
             <Grid item xs={4} style={{ padding: "0px" }}>
               <a
-                href="http://ikecart.com:3000/"
+                href="http://ikecart.com"
                 target="_blank"
                 rel="noopener noreferrer"
                 className={classes.heading}
