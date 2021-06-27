@@ -1,24 +1,15 @@
-import React  from 'react';
-import './App.css';
-import Header from './components/Header/index';
-import Intro from './components/Intro/index';
-import Aboutme from './components/Aboutme/index';
-import RecentProjects from "./components/RecentProjects"
-import Crousel from './components/Slider/index';
-import Skills from './components/Skills';
-import Education from './components/Education';
-
+import Intro from './components/Intro';
+import Contact from './components/Contact';
+import Menu from './components/Menu';
+import Navbar from './components/Navbar';
+import Portfolio from './components/Portfolio'
+import PortfolioList from './components/PortfolioList';
+import Projects from './components/Projects/Projects';
 
 function App() {
   return (
     <div className="App">
-     <Header/>
-     <Intro/>
-     <Crousel/>
-     <Aboutme/>
-     <RecentProjects/>
-     <Education/>
-     <Skills/>
+    
     </div>
   );
 }
