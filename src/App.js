@@ -1,15 +1,21 @@
-import Intro from './components/Intro';
-import Contact from './components/Contact';
-import Menu from './components/Menu';
-import Navbar from './components/Navbar';
-import Portfolio from './components/Portfolio'
-import PortfolioList from './components/PortfolioList';
-import Projects from './components/Projects/Projects';
+import React from "react";
+
+import Intro from "./components/Intro/Intro";
+import Contact from "./components/Contact/Contact";
+import Menu from "./components/Menu/Menu";
+import Navbar from "./components/Navbar/Navbar";
+import Portfolio from "./components/Portfolio/Portfolio";
+import PortfolioList from "./components/PortfolioList/PortfolioList";
+import Projects from "./components/Projects/Projects";
 
 function App() {
   return (
     <div className="App">
-    
+      <Navbar />
+      <Intro />
+      <Portfolio />
+      <Projects />
+      <Contact />
     </div>
   );
 }
