@@ -7,15 +7,17 @@ import Navbar from "./components/Navbar/Navbar";
 import Portfolio from "./components/Portfolio/Portfolio";
 import PortfolioList from "./components/PortfolioList/PortfolioList";
 import Projects from "./components/Projects/Projects";
-
+import "./App.css" 
 function App() {
   return (
     <div className="App">
       <Navbar />
-      <Intro />
-      <Portfolio />
-      <Projects />
-      <Contact />
+      <div className="sections">
+        <Intro />
+        <Portfolio />
+        <Projects />
+        <Contact />
+      </div>
     </div>
   );
 }

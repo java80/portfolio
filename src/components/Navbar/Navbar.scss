@@ -1,0 +1,38 @@
+.top-bar{
+  width: 100%;
+  background-color:white;
+  height: 70px;
+  position: fixed;
+  top: 0;
+  z-index: 3;
+
+  
+
+.left{
+padding: 10px 30px;
+display: flex;
+justify-content: space-between;
+.wrapper {
+  display: flex;
+  padding: 13px 30px;
+  align-items: center;
+  justify-content: space-between;
+} 
+.right{
+ .hamburger{
+   width: 32px;
+   height: 25px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   cursor: pointer;
+   span{
+     width: 100%;
+     height: 3px;
+     background-color: black;
+   }
+ }
+}
+}
+
+}

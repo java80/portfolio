@@ -1,11 +1,15 @@
-import React from 'react'
-import { Person,Mail } from '@material-ui/icons'
+import React from 'react';
+
+import { Person, Mail } from '@material-ui/icons';
+import MenuIcon from "@material-ui/icons/Menu";
+
+import "./Navbar.scss";
 const Navbar = () => {
   return (
     <div className="top-bar">
       <div className="left">
         <div className="wrapper">
-          Ike's Portfolio
+          <a href = "#intro" className= "logo"> Ike's Portfolio</a>
           <div className="item-container">
             <Person className="icon" />
             <span>8626001706</span>
