@@ -21,6 +21,20 @@ background-color: white;
      h3{
       font-size: 30px;
       color: white;
+      span{
+        color: rgb(255,197,209);
+      }
+    }
+    .porfolio-icons{
+    display: flex;
+    margin: 20px 0px;
+    text-decoration: none;
+    .github-icon, .linkedin-icon,.mail-icon {
+     margin:0px 10px;
+     cursor:pointer;
+     text-decoration: none;
+     color: rgb(199,241,255);
+    } 
     }
 }
 }
