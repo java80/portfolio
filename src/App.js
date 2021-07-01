@@ -6,7 +6,7 @@ import Menu from "./components/Menu/Menu";
 import Navbar from "./components/Navbar/Navbar";
 import Portfolio from "./components/Portfolio/Portfolio";
 import PortfolioList from "./components/PortfolioList/PortfolioList";
-import Projects from "./components/Projects/Projects";
+import Skills from "./components/Skills/Skills";
 import "./App.css" 
 function App() {
   return (
@@ -15,7 +15,7 @@ function App() {
       <div className="sections">
         <Intro />
         <Portfolio />
-        <Projects />
+        <Skills />
         <Contact />
       </div>
     </div>
