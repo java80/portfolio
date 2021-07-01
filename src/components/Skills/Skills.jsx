@@ -89,8 +89,51 @@ const Skills = () => {
     },
   ];
   return (
-    <div>
-      <h1>Hello Projects</h1>
+    <div className="skills-container">
+      <div className="skills-slider">
+        <Slide bottom cascade>
+          <div className="skills-slide">
+            {skillsImages.map((skillimage, index) => {
+              return (
+                <span>
+                  <img
+                    src={skillimage.img}
+                    alt={skillimage.alt}
+                    style={{ height: skillimage.height }}
+                  />
+                </span>
+              );
+            })}
+          </div>
+
+          <div className="skills-slide">
+            {skillsImages.map((skillimage, index) => {
+              return (
+                <span>
+                  <img
+                    src={skillimage.img}
+                    alt={skillimage.alt}
+                    style={{ height: skillimage.height }}
+                  />
+                </span>
+              );
+            })}
+          </div>
+          <div className="skills-slide">
+            {skillsImages.map((skillimage, index) => {
+              return (
+                <span>
+                  <img
+                    src={skillimage.img}
+                    alt={skillimage.alt}
+                    style={{ height: skillimage.height }}
+                  />
+                </span>
+              );
+            })}
+          </div>
+        </Slide>
+      </div>
     </div>
   );
 }
