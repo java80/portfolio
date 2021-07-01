@@ -11,6 +11,7 @@ import mongo from "./SkillsImages/mongo.png";
 import cS from "./SkillsImages/cS.png";
 import cPlus from "./SkillsImages/c++.png";
 import express from "./SkillsImages/express.png";
+import "./Skills.scss"
 
 import Slide from "react-reveal/Slide";
 const Skills = () => {
@@ -19,66 +20,66 @@ const Skills = () => {
     {
       img: htmlImg,
       alt: "html",
-      height: "7rem",
+      height: "11rem",
     },
     {
       img: cssImg,
       alt: "css",
-      height: "7rem",
+      height: "11rem",
      
     },
     {
       img: jsImg,
       alt: "js",
-      height: "8rem",
+      height: "10rem",
       
     },
     {
       img: bootstrapImg,
       alt: "bootstrap",
-      height: "10.2rem",
+      height: "13.2rem",
       
     },
     {
       img: reactjsImg,
       alt: "reactjs",
-      height: "6rem",
+      height: "8rem",
       
     },
     {
       img: materialUIImg,
       alt: "materialUI",
-      height: "10.2rem",
+      height: "13.2rem",
      
     },
     {
       img: ruby,
       alt: "ruby",
-      height: "4.2rem",
+      height: "5.2rem",
       
     },
     {
       img: jquery,
       alt: "jquery",
-      height: "10.2rem",
+      height: "13.2rem",
       
     },
     {
       img: mongo,
       alt: "mongo",
-      height: "3rem",
+      height: "6rem",
       
     },
     {
       img: cS,
       alt: "cS",
-      height: "5rem",
+      height: "6rem",
       
     },
     {
       img: cPlus,
       alt: "cPlus",
-      height: "6rem",
+      height: "10rem",
       
     },
     {
