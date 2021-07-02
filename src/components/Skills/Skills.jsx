@@ -90,7 +90,7 @@ const Skills = () => {
     },
   ];
   return (
-    <div className="skills-container">
+    <div className="skills-container" id="skills">
       <div className="skills-slider">
         <Slide bottom cascade>
           <div className="skills-slide">

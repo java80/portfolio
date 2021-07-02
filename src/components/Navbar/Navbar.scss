@@ -5,9 +5,16 @@
   position: fixed;
   top: 0;
   z-index: 3;
+  .item-container{
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+    @media (max-width: 768px){
+  display:none
+  }
+  }
 
   
-
 .left{
 padding: 10px 30px;
 display: flex;
@@ -17,6 +24,11 @@ justify-content: space-between;
   padding: 13px 30px;
   align-items: center;
   justify-content: space-between;
+  a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 800;
+  }
 } 
 .right{
  .hamburger{
@@ -34,5 +46,24 @@ justify-content: space-between;
  }
 }
 }
-
+&.active{
+  background-color: #15023A;
+  color:white;
+  .hamburger{
+      span{
+        &:first-child{
+          background-color: white;
+          transform: rotate(45deg);
+        }
+        &:nth-child(2){
+        opacity: 0;
+        }
+        &:last-child{
+          background-color: white;
+          transform: rotate(-45deg);
+        }
+      }
+  }
 }
+}
+

@@ -4,9 +4,10 @@ import { Person, Mail } from '@material-ui/icons';
 import MenuIcon from "@material-ui/icons/Menu";
 
 import "./Navbar.scss";
-const Navbar = () => {
+const Navbar = (props) => {
+  const { menuOpen, setMenuOpen } = props;
   return (
-    <div className="top-bar">
+    <div className={`top-bar ${menuOpen && "active"}`}>
       <div className="left">
         <div className="wrapper">
           <a href = "#intro" className= "logo"> Ike's Portfolio</a>
@@ -21,7 +22,7 @@ const Navbar = () => {
           </div>
         </div>
         <div className="right">
-          <div className="hamburger">
+          <div className="hamburger" onClick = {()=>setMenuOpen(!menuOpen)}>
             <span></span>
             <span></span>
             <span></span>

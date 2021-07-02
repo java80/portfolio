@@ -8,10 +8,14 @@ import Portfolio from "./components/Portfolio/Portfolio";
 import PortfolioList from "./components/PortfolioList/PortfolioList";
 import Skills from "./components/Skills/Skills";
 import "./App.css" 
+import { useState } from "react";
 function App() {
+  const [menuOpen, setMenuOpen] = useState(false)
+  
   return (
     <div className="App">
-      <Navbar />
+      <Navbar menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
+      <Menu menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
       <div className="sections">
         <Intro />
         <Portfolio />
