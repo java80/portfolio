@@ -3,6 +3,7 @@ import GitHubIcon from "@material-ui/icons/GitHub";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import MailIcon from "@material-ui/icons/Mail";
 import Thumbnail from "./BackgroundImage/thumbnail.png";
+import PictureAsPdfIcon from "@material-ui/icons/PictureAsPdf";
 import { init } from "ityped";
 import "./Intro.scss";
 
@@ -49,9 +50,16 @@ const Intro = () => {
           <a
             className="mail-icon"
             target="blank"
-            href="mailto:someone@yoursite.com"
+            href="mailto:ikeekedede@gmail.com"
           >
             <MailIcon />
+          </a>
+          <a
+            className="pdf-icon"
+            target="blank"
+            href="https://docs.google.com/document/d/1voxeid5y03Vp2qtAIhJvU1W81BbXgPCgaW_4Y9-qSbI/edit"
+          >
+            <PictureAsPdfIcon/>
           </a>
         </div>
       </div>

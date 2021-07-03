@@ -7,6 +7,7 @@ import Navbar from "./components/Navbar/Navbar";
 import Portfolio from "./components/Portfolio/Portfolio";
 import PortfolioList from "./components/PortfolioList/PortfolioList";
 import Skills from "./components/Skills/Skills";
+import Experience from "./components/Experience/Experience";
 import "./App.css" 
 import { useState } from "react";
 function App() {
@@ -19,7 +20,9 @@ function App() {
       <div className="sections">
         <Intro />
         <Portfolio />
-        <Skills />
+        {/* <Skills /> */}
+        <Experience/>
+
         <Contact />
       </div>
     </div>
