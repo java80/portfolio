@@ -13,6 +13,8 @@ import cPlus from "../Skills/SkillsImages/c++.png";
 import express from "../Skills/SkillsImages/express2.png";
 import "./Experience.scss"
 import styled from 'styled-components';
+import RubberBand from "react-reveal/RubberBand";
+import Flip from "react-reveal/Flip"
 const Experience = () => {
 
  const skillsImages = [
@@ -90,30 +92,28 @@ const Experience = () => {
    },
  ];
   return (
-    <div className ="experience-container" id = "experience">
-       {/* <h1> Experience</h1> */}
-      <div className = "box-container">
-      {
-        skillsImages.map((skillimage, index) => {
-          
-          return (
-            <div className="item" key={index}>
-              <p>{skillimage.alt}</p>
-              <img
-                src={skillimage.img}
-                alt=""
-               style={{height:skillimage.height}}
-              />
-            </div>
-          ); 
-          
-
-        })
-      }
-      </div>
-      </div>
-    
-  )
+    <div className="experience-container" id="experience">
+      <h1> Experience</h1>
+      <RubberBand>
+        <div className="box-container">
+          {skillsImages.map((skillimage, index) => {
+            return (
+              <div className="item" key={index}>
+                <p>{skillimage.alt}</p>
+                <Flip left>
+                  <img
+                    src={skillimage.img}
+                    alt=""
+                    style={{ height: skillimage.height }}
+                  />
+                </Flip>
+              </div>
+            );
+          })}
+        </div>
+      </RubberBand>
+    </div>
+  );
 }
 
 export default Experience
