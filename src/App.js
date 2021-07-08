@@ -5,7 +5,6 @@ import Contact from "./components/Contact/Contact";
 import Menu from "./components/Menu/Menu";
 import Navbar from "./components/Navbar/Navbar";
 import Portfolio from "./components/Portfolio/Portfolio";
-import PortfolioList from "./components/PortfolioList/PortfolioList";
 import Skills from "./components/Skills/Skills";
 import Experience from "./components/Experience/Experience";
 import "./App.css" 
