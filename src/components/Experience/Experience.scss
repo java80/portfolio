@@ -1,0 +1,60 @@
+.experience-container{
+background-color:white;
+display: flex;
+background-color: white;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+height: 100%;
+  .box-container{
+   width: 70%;
+   height: 50%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-wrap: wrap;
+   margin: 0 auto;
+   gap: 50px;
+
+.item{
+   width: 200px;
+    height:100px;
+    background-color: white; 
+    border: 2px solid rgb(240,239,239);
+    border-radius: 26px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    p{
+      background-color:black;
+      text-align: center;
+      font-size: 25px;
+      color:white;
+    }
+   .rotating-image{
+      
+      animation: rotate 1s linear infinite !important;
+    }
+    
+    @keyframes rotate {
+  //  {
+  //   // transform: rotate(0deg);
+  //   transform: scaleX(0)
+  // }
+   to {
+   //transform: rotate(360deg);
+   transform: scaleX(-1);
+  }
+}
+    .item p {
+    position: absolute;
+    font-size: 20px;
+    text-align: center;
+    background-color: white;
+   }
+  }
+  }
+  
+}
+
