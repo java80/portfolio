@@ -21,7 +21,9 @@ const Navbar = (props) => {
           <div className="item-container">
             <Mail className="mail" />
 
-            <span>ikeekedede@gmail.com</span>
+            <span>
+              <a href="mailto:ikeekedede@gmail.com">Email Me</a>
+            </span>
           </div>
           <div className="item-container">
             <Mail className="resume" />

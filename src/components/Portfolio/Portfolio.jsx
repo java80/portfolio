@@ -6,9 +6,9 @@ const Portfolio = () => {
     <div className="portfolio" id="portfolio">
       <h1>My Portfolio</h1>
       <div className="container">
-        {featuredPortfolio.map((porfolio) => {
+        {featuredPortfolio.map((porfolio,index) => {
           return (
-            <a target="blank" href={porfolio.projectLink}>
+            <a key={index} target="blank" href={porfolio.projectLink}>
               <div className="item">
                 <img src={porfolio.img} alt="" />
                 <h3> {porfolio.title}</h3>

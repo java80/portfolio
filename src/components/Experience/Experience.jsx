@@ -15,102 +15,130 @@ import "./Experience.scss"
 import styled from 'styled-components';
 import RubberBand from "react-reveal/RubberBand";
 import Flip from "react-reveal/Flip"
+import Tilt from "react-parallax-tilt";
+import { red, yellow } from '@material-ui/core/colors';
 const Experience = () => {
-
+  
+ 
  const skillsImages = [
    {
      img: htmlImg,
      alt: "Html",
      height: "40 rem",
-     backgroundcolor: "red",
+     backgroundColor: "red",
+     borderTopColor: "yellow",
    },
    {
      img: cssImg,
      alt: "Css",
      height: "5rem",
-     backgroundcolor: "red",
+     backgroundColor: "yellow",
+     borderTopColor: "blue",
    },
    {
      img: jsImg,
      alt: "Js",
      height: "5rem",
-     backgroundcolor: "red",
+     backgroundColor: "white",
+     borderTopColor: "yellow",
    },
    {
      img: bootstrapImg,
      alt: "Bootstrap",
      height: "5.2rem",
-     backgroundcolor: "red",
+     backgroundColor: "blue",
+     borderTopColor: "yellow",
    },
    {
      img: reactjsImg,
      alt: "Reactjs",
      height: "5rem",
-     backgroundcolor: "red",
+     backgroundColor: "pink",
+     borderTopColor: "yellow",
    },
    {
      img: materialUIImg,
      alt: "MaterialUI",
      height: "5.2rem",
-     backgroundcolor: "red",
+     backgroundColor: "pink",
+     borderTopColor: "yellow",
    },
    {
      img: ruby,
      alt: "Ruby",
      height: "5.2rem",
-     backgroundcolor: "red",
+     backgroundColor: "pink",
+     borderTopColor: "yellow",
    },
    {
      img: jquery,
      alt: "Jquery",
      height: "5.2rem",
-     backgroundcolor: "red",
+     backgroundColor: red,
+     borderTopColor: "yellow",
    },
    {
      img: mongo,
      alt: "Mongodb",
      height: "5 rem",
-     backgroundcolor: "red",
+     backgroundColor: "pink",
+     borderTopColor: "yellow",
    },
    {
      img: cS,
      alt: "CS",
      height: "5 rem",
-     backgroundcolor: "red",
+     backgroundColor: "pink",
    },
    {
      img: cPlus,
      alt: "c++",
      height: "5rem",
-     backgroundcolor: "yellow"
+     backgroundColor: "pink",
+     borderTopColor: "yellow",
    },
    {
      img: express,
      alt: "Express",
      height: "5rem",
-     backgroundcolor: "blue"
+     backgroundColor: "pink",
+     borderTopColor: "yellow",
    },
  ];
   return (
     <div className="experience-container" id="experience">
       <h1> Experience</h1>
       <RubberBand>
+       
         <div className="box-container">
-          {skillsImages.map((skillimage, index) => {
-            return (
-              <div className="item" key={index}>
-                <p>{skillimage.alt}</p>
-                <Flip left>
-                  <img
-                    src={skillimage.img}
-                    alt=""
-                    style={{ height: skillimage.height }}
-                  />
-                </Flip>
-              </div>
-            );
-          })}
-        </div>
+           
+            {skillsImages.map((skillimage, index) => {
+              return (
+                <Tilt
+                  key={index}
+                  className="Tilt"
+                  options={{ max: 25, scale: 2.03 }}
+                >
+                  <div
+                    className="item"
+                    key={index}
+                    style = {{borderTopColor: skillimage.borderTopColor}}
+                  >
+                    <p>{skillimage.alt}</p>
+                    <Flip left>
+                      <img
+                        className="rotating-image"
+                        src={skillimage.img}
+                        alt=""
+                        style={{ height: skillimage.height }}
+                      />
+                    </Flip>
+                  </div>
+                </Tilt>
+              );
+            })}
+          </div>
+       
       </RubberBand>
     </div>
   );

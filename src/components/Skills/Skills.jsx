@@ -110,7 +110,7 @@ const Skills = () => {
           <div className="skills-slide">
             {skillsImages.map((skillimage, index) => {
               return (
-                <span>
+                <span key = {index}>
                   <img
                     src={skillimage.img}
                     alt={skillimage.alt}
