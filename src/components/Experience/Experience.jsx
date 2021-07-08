@@ -12,11 +12,10 @@ import cS from "../Skills/SkillsImages/cS.png";
 import cPlus from "../Skills/SkillsImages/c++.png";
 import express from "../Skills/SkillsImages/express2.png";
 import "./Experience.scss"
-import styled from 'styled-components';
 import RubberBand from "react-reveal/RubberBand";
 import Flip from "react-reveal/Flip"
 import Tilt from "react-parallax-tilt";
-import { red, yellow } from '@material-ui/core/colors';
+import { red, } from '@material-ui/core/colors';
 const Experience = () => {
   
  

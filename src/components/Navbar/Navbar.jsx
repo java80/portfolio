@@ -1,7 +1,5 @@
 import React from 'react';
-
 import { Person, Mail } from '@material-ui/icons';
-import MenuIcon from "@material-ui/icons/Menu";
 
 import "./Navbar.scss";
 const Navbar = (props) => {
