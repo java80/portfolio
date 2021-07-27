@@ -9,8 +9,9 @@ import ruby from "./SkillsImages/ruby.png";
 import jquery from "./SkillsImages/jquery.png";
 import mongo from "./SkillsImages/mongo.png";
 import cS from "./SkillsImages/cS.png";
-import cPlus from "./SkillsImages/c++.png";
+//import cPlus from "./SkillsImages/c++.png";
 import express from "./SkillsImages/express.png";
+import java from "./SkillsImages/java.jpeg"
 import "./Skills.scss"
 
 import Slide from "react-reveal/Slide";
@@ -77,8 +78,8 @@ const Skills = () => {
       
     },
     {
-      img: cPlus,
-      alt: "cPlus",
+      img: java,
+      alt: "Java",
       height: "10rem",
       
     },
