@@ -57,7 +57,7 @@ const Intro = () => {
           <a
             className="pdf-icon"
             target="blank"
-            href="https://portfolioike.s3.us-east-2.amazonaws.com/Ike_Ekedede_GA_Resume.pdf"
+            href="https://portfolioike.s3.us-east-2.amazonaws.com/Ike_Ekedede_GA+Resume.pdf"
           >
             <PictureAsPdfIcon />
           </a>
