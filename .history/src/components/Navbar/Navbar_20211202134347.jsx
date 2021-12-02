@@ -26,7 +26,7 @@ const Navbar = (props) => {
           <div className="item-container">
             <Mail className="resume" />
             <a
-              href="https://portfolioike.s3.us-east-2.amazonaws.com/Ike_Ekedede_GA_Resume.pdf"
+              href="https://portfolioike.s3.us-east-2.amazonaws.com/Ike_Ekedede_GA+Resume.pdf"
               target="_blank"
               rel="noopener noreferrer"
             >
